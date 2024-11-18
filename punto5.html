@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Reproducion de videos en HTML</title>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .video-container video {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body style="background-color:hsl(101, 92%, 64%)">
+    <h1>Reproducion de videos en HTML</h1>
+    <p>A continuacion, se muestra los videos de HTML5 incrustados en la pagina web:</p>
+    <h1>Galería de Videos locales</h1>
+
+    <div class="video-container">
+        <video controls>
+            <source src="Video1.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <video controls>
+            <source src="Video2.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <video controls>
+            <source src="Video3.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
+    <br>
+    <h1>Galería de Videos con link de navegador en este caso (YOU TUBE)</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MJkdaVFHrto?si=P1rxthBKKnT4Ii3Y"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CxF3ykWP1H4?si=i9GVa8daTgoeQ1Z9"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lv88bCi7eyg?si=4HtxScP2BklAFGkK"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hWglK8nWh60?si=dnEAsFmWu0e9yLLD"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
